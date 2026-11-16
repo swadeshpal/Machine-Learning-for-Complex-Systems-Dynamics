@@ -14,10 +14,10 @@ The repository contains the following files and directories:
 
 | File/Directory | Description |
 |---|---|
-| `article_1s_saddle_node_1st.py` | Python implementation of the first single-equation ecological model (equation (4)). |
-| `article_1s_saddle_node_2nd.py` | Python implementation of the second ecological model (equation (6)). |
-| `Article_2S_Example_2nd.py` | EINNs implementation of the coupled two-equation Alzheimer’s disease model (equation (10)). |
-| `Three_Species.py` | Implementation of the extended system of equations (equation (13)). |
+| `Example_1.py` | Python implementation of the first single-equation ecological model (equation (4)). |
+| `Example_2.py` | Python implementation of the second ecological model (equation (6)). |
+| `Example_3.py` | EINNs implementation of the coupled two-equation Alzheimer’s disease model (equation (10)). |
+| `Example_4.py` | Implementation of the extended system of equations (equation (13)). |
 
 ## Network Architecture
 
@@ -25,13 +25,6 @@ The EINNs implementation uses deep feed-forward neural networks with hyperbolic 
 
 The specific network architecture, sampling strategy, and optimization parameters used for each numerical example are described in the corresponding source files and in the manuscript.
 
-## Installation
-
-Install the required Python packages using:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Execution
 
@@ -41,6 +34,7 @@ The numerical examples can be executed individually using:
 python Example_1.py
 python Example_2.py
 python Example_3.py
+python Example_4.py
 ```
 
 ## Reproducibility
