@@ -14,8 +14,8 @@ The repository contains the following files and directories:
 
 | File/Directory | Description |
 |---|---|
-| `Example_1.py` | Python implementation of the first single-equation ecological model (equation (4)). |
-| `Example_2.py` | Python implementation of the second ecological model (equation (6)). |
+| `Example_1.py` | EINNs implementation of the first single-equation ecological model (equation (4)). |
+| `Example_2.py` | EINNs implementation of the second ecological model (equation (6)). |
 | `Example_3.py` | EINNs implementation of the coupled two-equation Alzheimer’s disease model (equation (10)). |
 | `Example_4.py` | Implementation of the extended system of equations (equation (13)). |
 
